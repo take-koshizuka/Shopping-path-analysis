@@ -1,0 +1,66 @@
+
+dataset_path: data/dataset.h5
+model:
+  prior:
+    kappa:
+      mean: 0.0
+      std: 10.0
+    alpha_is:
+      mean: 0.0
+      std: 10.0
+    alpha_ib:
+      mean: 0.0
+      std: 10.0
+    beta_is:
+      mean: 0.0
+      std: 10.0
+    beta_ib:
+      mean: 0.0
+      std: 10.0
+    delta_is:
+      mean: 0.0
+      std: 10.0
+    delta_ib:
+      mean: 0.0
+      std: 10.0
+    Z_j:
+      mean: [0., 0., 0., 0., 0., 0., 0., 0.]
+      std: 10.0
+    tau_pass:
+      mean: [0., 0., 0., 0., 0., 0., 0., 0.]
+      std: 10.0
+    tau_shop:
+      mean: [0., 0., 0., 0., 0., 0., 0., 0.]
+      std: 10.0
+    a_ik0:
+      mean: [0., 0., 0., 0., 0.]
+      std: 10.0
+    w_v:
+      mean: 0.0
+      std: 10.0
+    w_s:
+      mean: 0.0
+      std: 10.0
+    w_b:
+      mean: 0.0
+      std: 10.0
+    gamma_v:
+      mean: 0.0
+      std: 10.0
+    gamma_s:
+      mean: 0.0
+      std: 10.0
+    gamma_b:
+      mean: 0.0
+      std: 10.0
+  noise:
+    noise_b:
+      mean: 0.0
+      std: 0.01
+    noise_s:
+      mean: 0.0
+      std: 0.01
+    noise_v:
+      mean: 0.0
+      std: 0.01
+  
